@@ -18,7 +18,7 @@ pull(values([1, 2, 3]), map(x => x * 2), collect()).then(console.log)
 
 ## Abort
 
-Aborting without an error will halt the process and return the value so far.
+Aborting without an error will end the stream and return the value so far.
 
 ```
 abort([err])
